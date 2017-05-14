@@ -1,0 +1,169 @@
+*{margin:0;padding:0;}
+body, html
+{
+	margin: 0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+a{
+	color: rgb(38,167,148);
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+}
+a:visited{
+	color: rgb(38,167,148);
+}
+
+.line
+{
+	background-color: black;
+	border-width: 2px;
+	border-color: rgb(211,211,213);
+}
+.header
+{
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	background-color: rgb(38,167,148);
+}
+
+.headerLabel
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.contentLeft
+{
+	position: relative;
+	top:50px;
+	width: 15%;
+	height: auto;
+	float: left;
+	background-color: rgb(234,235,236);
+}
+
+.leftNavTitle{
+	padding-left: 20px;
+}
+
+.contentLeftHeader
+{
+	width: 100%;
+	height: 60px;
+	text-align: left;
+	font-size: 18px;
+	line-height: 60px;
+	color: black;
+	float: left;
+}
+
+.contentNav
+{
+	width: 100%;
+	height: 60px;
+	text-align: left;
+	font-size: 18px;
+	line-height: 60px;
+	color: rgb(38,167,148);;
+	float: left;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: rgb(211,211,213);
+}
+
+.contentSecNav
+{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 50px;
+	color: rgb(38,167,148);;
+	float: left;
+	display: block;
+}
+
+.contentRight
+{
+	position: relative;
+	top:50px;
+	width:85%;
+	height: auto;
+	float: right;
+	background-color: rgb(244,245,246);
+	box-sizing: border-box;
+}
+
+.rightNavTitle{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.contentRightHeader
+{
+	width: 100%;
+	height:60px;
+	float: left;
+	line-height: 40px;
+}
+
+.contentIFrame{
+	width: 100%;
+	height: auto;
+	border-width: 0;
+}
+
+.contentRightBody
+{
+	width: auto;
+	height: auto;
+	background-color: gainsboro;
+	float: left;
+}
+
+.footer
+{
+	width: 100%;
+	height: 50px;
+	color: #e1efff;
+	line-height: 50px;
+	letter-spacing: 1px;
+	text-align: center;
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: lightslategrey;
+}
+
+.fNavImg{
+	width: 20px;
+	height: 20px;
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.secNavImg{
+	width: 5px;
+	height: 10px;
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}

@@ -1,0 +1,83 @@
+.totalTB
+{
+	width:100%;
+	text-align: center;
+}
+
+.secTB
+{
+	border-width: 1px;
+	border-style: solid;
+	width: 100%;
+	text-align: center;
+}
+
+.tableHeader
+{
+	background-color: rgb(241,243,244);
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 30px;
+	line-height:30px;
+}
+.tableBodyS
+{
+	background-color: white;
+	height: 30px;
+	line-height:30px;
+}
+
+.tableBodyD
+{
+	background-color: rgb(231,241,240);
+	
+	height: 30px;
+	line-height:30px;
+}
+
+.selectTh ,.nameTh , .sexTh , .emailTh , .cellPhoneTh,.selectTd ,.nameTd , .sexTd , .emailTd , .cellPhoneTd
+{
+	text-align: center;
+}
+
+.selectTh ,.nameTh , .sexTh , .emailTh , .cellPhoneTh
+{
+	font-size: 18px;
+}
+
+.selectTd ,.nameTd , .sexTd , .emailTd , .cellPhoneTd
+{
+	font-size: 15px;
+	height: 10px;
+	line-height: 10px;
+}
+
+.selectTh,.selectTd
+{
+	width: 5%;
+}
+
+.nameTh,.nameTd
+{
+	width: 20%;
+}
+
+.sexTh,.sexTd
+{
+	width: 15%;
+}
+
+.emailTh,.emailTd
+{
+	width: 20%;
+}
+.cellPhoneTh, .cellPhoneTd
+{
+	width: 20%;
+}
+.managerTh,.managerTd
+{
+	width:20%;
+	text-align: center;
+}
