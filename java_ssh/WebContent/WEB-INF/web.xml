@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <web-app 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 			xmlns="http://java.sun.com/xml/ns/javaee" 
 			xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
@@ -57,103 +56,10 @@
   
   
 
-=======
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-  
-  <listener>
-  	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
-  
->>>>>>> origin/master
   <!-- welcome file -->
   <welcome-file-list>
     <welcome-file>login.html</welcome-file>
   </welcome-file-list>
 
   
-<<<<<<< HEAD
-=======
-  <!-- 默认配置在WEB-INF目录下 -->  
-  <context-param>  
-	<param-name>contextConfigLocation</param-name>  
-	<param-value>/WEB-INF/applicationContext.xml</param-value> 
-  </context-param>  
-  
-  <!-- servlet -->
-  <servlet>
-	<servlet-name>spring</servlet-name>
-	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-	<load-on-startup>1</load-on-startup>
-  </servlet>
-  <servlet>
-    <servlet-name>StudentServlet</servlet-name>
-    <servlet-class>com.kk.servlet.StudentServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>ManagerServlet</servlet-name>
-    <servlet-class>com.kk.servlet.ManagerServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>index</servlet-name>
-    <jsp-file>/WEB-INF/jsp/index.jsp</jsp-file>
-  </servlet>
-  <servlet>
-    <servlet-name>List</servlet-name>
-    <jsp-file>/WEB-INF/jsp/list.jsp</jsp-file>
-  </servlet>
-  <servlet>
-    <servlet-name>Add</servlet-name>
-    <jsp-file>/WEB-INF/jsp/addStudent.jsp</jsp-file>
-  </servlet>
-  <servlet>
-    <servlet-name>update</servlet-name>
-    <jsp-file>/WEB-INF/jsp/update.jsp</jsp-file>
-  </servlet>
-  
-  <!-- servlet mapping -->
-  <servlet-mapping>
-	<servlet-name>spring</servlet-name>
-	<url-pattern>/</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>StudentServlet</servlet-name>
-    <url-pattern>/StudentServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ManagerServlet</servlet-name>
-    <url-pattern>/ManagerServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>index</servlet-name>
-    <url-pattern>/index</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>List</servlet-name>
-    <url-pattern>/list</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>Add</servlet-name>
-    <url-pattern>/add</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>update</servlet-name>
-    <url-pattern>/update</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>default</servlet-name>
-    <url-pattern>*.css</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>default</servlet-name>
-    <url-pattern>*.js</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>default</servlet-name>
-    <url-pattern>*.html</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>default</servlet-name>
-    <url-pattern>*.png</url-pattern>
-  </servlet-mapping>
->>>>>>> origin/master
 </web-app>
