@@ -31,9 +31,5 @@
 	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-webmvc-portlet-4.3.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-websocket-4.3.8.RELEASE.jar"/>
-<<<<<<< HEAD
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
-=======
-	<classpathentry kind="output" path="build/classes"/>
->>>>>>> origin/master
 </classpath>
