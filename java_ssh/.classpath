@@ -5,11 +5,31 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_Student/java_student/WebContent/WEB-INF/lib/commons-beanutils-1.9.3.jar"/>
-	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_Student/java_student/WebContent/WEB-INF/lib/commons-collections-3.2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_Student/java_student/WebContent/WEB-INF/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_Student/java_student/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar"/>
-	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_Student/java_student/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
-	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_Student/java_student/WebContent/WEB-INF/lib/mysql-connector-java-5.1.41-bin.jar"/>
-	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/mysql-connector-java-5.1.41-bin.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-aspects-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-context-support-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-instrument-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-instrument-tomcat-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-jdbc-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-jms-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-messaging-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-orm-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-oxm-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-test-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-webmvc-portlet-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/kk/eclipse/jee-neon/javaeeWP/Java_SSH/java_ssh/WebContent/WEB-INF/lib/spring-websocket-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>

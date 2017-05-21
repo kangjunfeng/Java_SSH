@@ -29,8 +29,8 @@
 			</div>
 			<div id ="s1"  class="contentSecNav">
 				<ul>
-					<li class="contentSecNav"><img class="secNavImg" src="<%=basePath%>/resource/index_arrow.png"><a class="leftNavTitle" href="${pageContext.request.contextPath}/StudentServlet?select=all" target="iframe">学生列表</a></li>
-					<li class="contentSecNav"><img class="secNavImg" src="<%=basePath%>/resource/index_arrow.png"><a class="leftNavTitle"  href="${pageContext.request.contextPath}/StudentServlet?select=add" target="iframe">添加学生</a></li>
+					<li class="contentSecNav"><img class="secNavImg" src="<%=basePath%>/resource/index_arrow.png"><a class="leftNavTitle" href="${pageContext.request.contextPath}/list" target="iframe">学生列表</a></li>
+					<li class="contentSecNav"><img class="secNavImg" src="<%=basePath%>/resource/index_arrow.png"><a class="leftNavTitle"  href="${pageContext.request.contextPath}/add" target="iframe">添加学生</a></li>
 				</ul>
 			</div>
 		</div>

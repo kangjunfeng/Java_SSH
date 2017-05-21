@@ -14,6 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.ConvertUtils;
 import org.apache.commons.beanutils.locale.converters.DateLocaleConverter;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.kk.bean.StudentBean;
 import com.kk.dao.impl.StudentDaoImpl;
@@ -27,7 +29,7 @@ import com.kk.util.WebUtil;
 
 public class StudentServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	StudentDaoImpl daoImpl =new StudentDaoImpl();
+//	StudentDaoImpl daoImpl =new StudentDaoImpl();
 	
     /**
      * @see HttpServlet#HttpServlet()
@@ -97,7 +99,9 @@ public class StudentServlet extends HttpServlet {
             }
 			
             student.setId(WebTool.createUUID());
-          
+            
+            ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+    		StudentDaoImpl  daoImpl =(StudentDaoImpl)context.getBean("studentService"); 
             boolean flag =daoImpl.add(student);
 			if (flag) {
 				getStudentList(request, response);
@@ -123,6 +127,9 @@ public class StudentServlet extends HttpServlet {
 	private void deleteSudent(HttpServletRequest request,HttpServletResponse response)throws ServletException,IOException {
 		String id =request.getParameter("id");
 		System.out.println("--delete id--" + id);
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		StudentDaoImpl  daoImpl =(StudentDaoImpl)context.getBean("studentService"); 
+
 		if (!daoImpl.delete(id)) {
 			request.getSession().setAttribute("errors", "É¾³ýÊ§°Ü");
 		}
@@ -148,6 +155,8 @@ public class StudentServlet extends HttpServlet {
                 e.printStackTrace();
             }
           
+			ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+			StudentDaoImpl  daoImpl =(StudentDaoImpl)context.getBean("studentService"); 
             boolean flag =daoImpl.update(student);
 			if (flag) {
 				getStudentList(request, response);
@@ -191,6 +200,8 @@ public class StudentServlet extends HttpServlet {
 	 * @throws IOException
 	 */
 	private void getStudentList(HttpServletRequest request,HttpServletResponse response)throws ServletException,IOException{
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		StudentDaoImpl  daoImpl =(StudentDaoImpl)context.getBean("studentService"); 
 		List<Student> list =daoImpl.findAll();
 		request.getSession().setAttribute("list", list);
 		System.out.println("--list--"+list);

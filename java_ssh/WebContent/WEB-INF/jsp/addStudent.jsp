@@ -9,7 +9,7 @@
 <body>
 	<!-- <h1 align="center">添加学生信息</h1> -->
     <!--  <hr> -->
-    <form action="${pageContext.request.contextPath }/StudentServlet?select=add" method="post">
+    <form action="${pageContext.request.contextPath }/add" method="post">
         <table align="center" border="0.5">
             <tr>
                 <td align="right" width="40%">姓名</td>
